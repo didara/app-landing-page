@@ -1,7 +1,7 @@
 body {
   font-family: 'PT Sans', serif;
-  color: #333;
-  background-color: #FFF; }
+  color: #2D1C0F;
+  background-color: #FCF4F4; }
 
 header,
 main {
@@ -16,7 +16,7 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-  color: #DE2052;
+  color: #CE5454;
   text-decoration: none; }
 
 a:hover {
@@ -51,7 +51,7 @@ a:hover {
 hr {
   border: 0;
   height: 1px;
-  background-color: #b3b3b3;
+  background-color: #ce976d;
   margin: 2em 0 !important; }
 
 #mc_embed_signup {
@@ -64,16 +64,16 @@ hr {
 #mc_embed_signup input[type=email] {
   width: 200px !important;
   background-color: #f0f0f0;
-  text-color: #333;
+  text-color: #2D1C0F;
   border-radius: 5px;
   border: 1px solid #666;
   padding: 10px !important; }
 
 #mc_embed_signup .button {
-  background-color: #DE2052 !important; }
+  background-color: #CE5454 !important; }
 
 #mc_embed_signup .button:hover {
-  background-color: #b11a42 !important; }
+  background-color: #ba3535 !important; }
 
 /*** footer ***/
 footer {
