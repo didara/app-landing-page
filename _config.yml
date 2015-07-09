@@ -4,7 +4,7 @@ url: http://thekelin.com
 # app configuration
 app:
   # an avatar or logo (optional)
-  logo: "/images/logo.png"
+  logo: "images/logo.png"
   # author will appear under the avatar (optional)
   author: "Kelin"
   # tagline will appear under the title (optional)
