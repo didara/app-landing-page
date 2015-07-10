@@ -40,20 +40,21 @@ a:hover {
 }
 
 .logo {
-	width: 400px;
-	height: 400px;
-	display: nline-block;
+	width: 200px;
+	height: 200px;
+	display: inline-block;
 	background-size: cover;
 	border-radius: 19px;
 	-moz-border-radius: 19px;
 }
 
 /*** Author ***/
+
 .author-container h1 {
 	font-size: 2.8em;
 	margin-top: 0;
 	margin-bottom: 0;
-	text-align: center;
+	text-align: center!important;
 }
 
 /*** Tagline ***/
@@ -90,6 +91,7 @@ hr {
 }
 
 #mc_embed_signup .button {
+	clear: none!important;
 	background-color: $anchor-text-color!important;
 }
 
@@ -131,10 +133,14 @@ footer {
 		text-align: right;
 	}
 
-	.author-container h1,
 	.logo-container,
 	.tagline-container p {
 		text-align: right;
+	}
+
+	.author-container {
+		width: 200px;
+		float: right;
 	}
 
 	main {
